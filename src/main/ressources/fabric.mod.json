@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-performance-profiler",
+  "version": "${version}",
+  "name": "AI Performance Profiler",
+  "description": "Mod Minecraft Fabric 1.21.1 basé sur l'IA pour profiler les performances PC et créer des profils optimisés (compatible Sodium).",
+  "authors": [
+    "TheMandaWalker"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TheMandaWalker/ai-performance-profiler"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.manda.aiperf.AIPerformanceProfiler"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}
